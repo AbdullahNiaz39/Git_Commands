@@ -1,0 +1,23 @@
+//////////////////////When first time Project upload on github //////////
+git init
+git add .
+git commit -m "first commit"
+git branch -M main or  git branch -M master
+git remote add origin https://github.com/AbdullahNiaz39/Git_Commands.git
+git push -u origin main or git push -u origin master
+
+
+/////When changing in same branch /////
+git add .
+git commit -m "first commit"
+git push -u origin branch_Name
+
+////When Create a New branch ////
+git branch
+git branch -c "Branch_Name"
+git status
+git checkout "Branch_name" ////changing a branch
+git branch
+git add .
+git commit -m "New changes"
+git push origin head

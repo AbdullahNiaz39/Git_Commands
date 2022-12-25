@@ -21,3 +21,7 @@ git branch
 git add .
 git commit -m "New changes"
 git push origin head
+
+
+//// git branch clone
+git clone --single-branch --branch aapi https://github.com/AbdullahNiaz39/Use-Of-Hooks.git
